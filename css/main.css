@@ -23,19 +23,18 @@ body {font-family: 'Source Sans Pro', sans-serif;
 
 header {
     height: 800px;
-    background: url('../img/bananas.png');
+    background: url('../img/full-back.png');
     background-size: cover;
     background-position: center;
 }
 header h1 { 
-    padding: 65px 0 65px 25px;
+    float: right;
     font-family:'lora' serif;
     font-size: 50px;
-    color: #00220E;
+    color: #8ac305;
 }
 nav {
     float: right; 
-    padding: 75px 25px;
 }
 nav ul li{
     display:grid;
@@ -55,11 +54,11 @@ header h2 {
     font-family: 'lora' serif;
     font-size: 72px;
     line-height: 80px;
-    color: #FFFFFF;
-    padding: 20px 0 20px 25px;
+    color: #00220E;
+    padding: 75px 25px;
 }
 header h2 span {
-    color: #00220E; 
+    color: #8ac305; 
     font-style: italic;
     font-weight: bolder;
 }
