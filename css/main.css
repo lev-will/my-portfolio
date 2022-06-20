@@ -37,7 +37,7 @@ nav {
     float: right; 
 }
 nav ul li{
-    display:grid;
+    display: inline-block;
 }
 nav ul li a {
     text-transform: uppercase;
@@ -49,13 +49,11 @@ nav ul li a {
     padding-left: 80px; 
 }
 header h2 {
-    width: 1000px;
+    width: 1200px;
     clear: both;
     font-family: 'lora' serif;
     font-size: 72px;
-    line-height: 80px;
     color: #00220E;
-    padding: 75px 25px;
 }
 header h2 span {
     color: #8ac305; 
